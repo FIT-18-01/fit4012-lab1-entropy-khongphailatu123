@@ -18,11 +18,17 @@ Sau khi hoàn thành bài này, sinh viên có thể:
 
 ## Yêu cầu nộp bài
 Hoàn thiện repo và nộp link GitHub. Repo cần có:
-- `README.md`
-- `report-1page.md`
+- `README.md` với tóm tắt bài lab
+- `report-page.md` (báo cáo 1 trang)
 - `tests/` với ít nhất 5 test cases
-- `logs/` có kết quả chạy thử
-- mã nguồn hoàn thiện cho Q1, Q2, Q3
+- `logs/` có kết quả chạy thử trên GitHub
+- mã nguồn hoàn thiện cho Q1 (entropy), Q2 (redundancy), Q3 (modular inverse)
+
+## Công nghệ và công cụ
+- **Entropy**: Độ đo độ bất định trong thông tin
+- **Redundancy**: Độ dư thừa thông tin = log₂(N) - H(X)
+- **Modulo Inverse**: Nghịch đảo modulo sử dụng thuật toán Euclid mở rộng
+- **GitHub**: Nền tảng version control để lưu trữ và nộp bài
 
 ## Gợi ý commit
 - `Complete Q1 entropy walkthrough`
